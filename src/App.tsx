@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import SearchForm from './components/SearchForm/SearchForm';
 import ResultCard from './components/ResultCard/ResultCard';
 import Homepage from './pages/HomePage/HomePage';
+import Footer from './components/Footer/Footer';
 import './index.css';
 
 import { Track, Artist, SearchResult } from './types/lastfm.types';
@@ -114,6 +115,7 @@ function App() {
           />
         )}
       </div>
+      <Footer />
     </div>
   );
 }

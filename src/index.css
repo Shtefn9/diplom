@@ -554,4 +554,14 @@ body {
   .artist-name {
     max-width: 80px;
   }
+
+  .app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
 }

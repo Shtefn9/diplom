@@ -15,10 +15,6 @@ const Header = () => {
           <a href="#" className="nav-link">Library</a>
           <a href="#" className="nav-link">Features</a>
         </nav>
-        <div className="header-right">
-          <button className="search-btn">🔍</button>
-          <button className="profile-btn">👤</button>
-        </div>
       </div>
     </header>
   );

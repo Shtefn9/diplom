@@ -12,7 +12,7 @@ const Homepage: React.FC<HomePageProps> = ({ popularTracks, topArtists, onItemCl
   return (
     <div className="bg-black text-white min-h-screen">
       <div className="container mx-auto px-4 py-8">
-        {/* Hot right now section */}
+       
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">Hot right now</h2>
           <div className="grid grid-cols-4 gap-4">
